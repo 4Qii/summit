@@ -1,0 +1,183 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    background-color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    border-bottom: solid 0.5px rgb(209, 209, 209);
+    max-width: 1440px;
+}
+
+.logo a img{
+    padding-left: 50px;
+    margin-top: 15px;
+    height: 40px;
+    text-decoration: none; position: relative;
+}
+
+.logo span{
+    font-size: 1.8rem;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: super;
+}
+
+
+.navlogo{
+    font-weight: 100;
+    height: 60px;
+    padding:0 ;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+    padding-right: 5%;
+    margin-top: 25px;
+    height: 40px;  
+    position: relative;
+}
+
+.menu li{
+    margin-left: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+
+.menu li a:hover{
+    color: lightseagreen
+}
+
+span li {
+    list-style: none;
+    padding-right: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;   
+}
+
+
+li a:hover{
+    color: lightseagreen
+}
+
+
+/* about us */
+.about-us{
+    padding-top: 100px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+    background-image: url(image/hero.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us .caption{
+    font-size: 100px;
+    font-weight: bold;
+    color: #1FA2DA;
+    text-shadow: 3px 2px #000000;
+}
+
+.about-us .description{
+    color: #F9F9F9;
+    font-size: 26px;
+    width: 700px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-weight: bold;
+}
+
+/* goal */
+.goal-sect{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 1100px;
+    margin-top: 50px;
+    box-shadow: 1.5px 1.5px #9a9a9a;
+    border-radius: 10px;
+}
+
+#goal{
+    font-size: 70px;
+    font-weight: bold;
+    color: red;
+    text-shadow: 3px 2px #9b9b9b;
+}
+
+.goal-group{
+    display: flex;
+    margin: 50px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#vision{
+    font-size: 44px;
+    font-weight: bold;
+    color: #1FA2DA;
+    text-decoration: underline red;
+}
+
+#mission{
+    font-size: 44px;
+    font-weight: bold;
+    color: #1FA2DA;
+    text-decoration: underline red;
+}
+
+#description{
+    width: 300px;
+    font-weight: bold;
+    color: #4D4D4D;
+}
+
+.goal2{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+    width: 500px
+}
+
+.story{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    text-shadow: 3px 2px #9b9b9b;
+    ;
+}
+
+.history{
+    font-weight: bold;
+    color: #4D4D4D;
+    width: 500px;
+    padding-bottom: 200px;
+}
