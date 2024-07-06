@@ -146,10 +146,10 @@ li a:hover{
     border-radius: 0px 0px 20px 20px;
 }
 
-img{
+.image img{
     max-width: 400px;
     border-radius: 20px 20px 0px 0px;
-    
+    border: solid 1px;
 }
 
 ul{
@@ -242,6 +242,7 @@ button{
     text-align: center;
     line-height: 1.5;
     padding: 30px;
+    position: static;
 }
 
 .rights{
