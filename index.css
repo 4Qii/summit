@@ -13,15 +13,20 @@ html{
 .navbar{
     background-color: white;
     height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 0 2px;
     position: fixed;
     z-index: 2;
     width: 100%;
     border-bottom: solid 0.5px rgb(209, 209, 209);
-    max-width: 1440px;
+
+}
+
+.navcontent{
+    display: flex;
+    width: 1000px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: space-between;
 }
 
 .logo a img{
@@ -181,3 +186,49 @@ li a:hover{
     width: 500px;
     padding-bottom: 200px;
 }
+
+/* Testimonies and reviews */
+
+.checked{
+    color: orange;
+}
+
+.testimonies{
+    margin-top: 30px;
+}
+
+.testimony-header{
+    font-size: 44px;
+    font-weight: bold;
+    color: #1FA2DA;
+    text-decoration: underline red;
+    text-align: center;
+}
+
+.bubbles{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    width: 1000px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.bubble{
+    border: 1px solid;
+    width: 400px;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.testimony{
+    font-weight: bold;
+    color: #4D4D4D;
+}
+
+.reviewer{
+    font-weight: bold;
+}
+
