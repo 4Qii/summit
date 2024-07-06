@@ -132,7 +132,6 @@ li a:hover{
 
 .image{
     width: 400px;
-    background-color: #9b9b9b;
     height: 225px;
     border-radius: 20px;
 }
@@ -140,7 +139,7 @@ li a:hover{
 .location{
     background-color: #9b9b9b;
     padding: 10px;
-    border: solid 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     min-height: 200px;
     line-height: 25px;
     border-radius: 0px 0px 20px 20px;
@@ -149,10 +148,12 @@ li a:hover{
 .image img{
     max-width: 400px;
     border-radius: 20px 20px 0px 0px;
-    border: solid 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-ul{
+li{
+    font-weight: bold;
+    color: #4D4D4D;
     list-style-position: inside;
 }
 
