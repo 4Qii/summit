@@ -156,11 +156,11 @@ ul{
     list-style-position: inside;
 }
 
-/*Contact*/
+/* contact */
 #contact-main{
-    margin-top: 100px;
     justify-content: center;
     text-align: center;
+    margin-top: 100px;
 }
 
 #contact{
@@ -185,8 +185,13 @@ margin-left: 30px;
 }
 
 #form{
-    margin-left: 240px  ;
     display: flex  ;
+}
+
+.form-content{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
 }
 
 .form-list{
@@ -199,6 +204,8 @@ margin-left: 30px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
 
 .name{
     margin-top: 10px;
@@ -222,7 +229,30 @@ input{
 button{
    border-radius: 10px;
    padding: 10px;
-   width: 100px;
+   width: 400px;
    cursor: pointer;
    margin-bottom: 2%;
+}
+
+/* footer */
+
+.footer{
+    background-color: black;
+    height: 20%;
+    text-align: center;
+    line-height: 1.5;
+    padding: 30px;
+}
+
+.rights{
+    color: white;
+}
+
+.fa-brands{
+    background-color: white;
+    padding: 10px;
+    border-radius: 100px;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
 }
