@@ -3,11 +3,14 @@
 <head>
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js"></script>
+    <script defer src="face-api.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>About Us</title>
-
 </head>
 <body>
     
@@ -30,100 +33,105 @@
             </div>
         </div>
 
-    <div class="about-us">
+        <div class="about-us">
 
-        <div class="paragraph">
+            <div class="paragraph">
 
-            <p class="caption">ABOUT US</p>
-            <div class="description">
-                <p>“Summit Features Sdn. Bhd. (SFSB) is a leading local technology-based company speacializing in motion tracking solutions for life science applications and the creative industry. Our solutions came to elevate the standard of medical and rehabilitation services through the adoption of cutting-edge technology.”</p>
+                <p class="caption">ABOUT US</p>
+                <div class="description">
+                    <p>“Summit Features Sdn. Bhd. (SFSB) is a leading local technology-based company speacializing in motion tracking solutions for life science applications and the creative industry. Our solutions came to elevate the standard of medical and rehabilitation services through the adoption of cutting-edge technology.”</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="showcase">
+            
+            <a href="test/index.html" class="button">Try Out Our Facial Detection Features</a>
+
+        </div>
+
+        <div class="goal-sect">
+
+            <p id="goal" align="center">OUR GOAL</p>
+
+            <div class="goal-group">
+
+                <div class="vision">
+
+                    <p id="vision">VISION</p>
+                    <p id="description">To be a sustainable leader in scientific fields related to human movement and performance studies to contribute to nation’s growth and building towards year 2030</p>
+
+                </div>
+
+                <div class="mission">
+
+                    <p id="mission">MISSION</p>
+                    <p id="description">Develop and empower local expertise together with local higher education institutions as catalyst to enhance Malaysia achievement globally in areas such as sports, medical, industry, education and etc.</p>
+
+                </div>
+
+            </div>
+
+            <div class="goal2">
+
+                <p class="story">OUR STORY</p>
+                <p class="history">Summit Features Sdn Bhd (SFSB) is a bumiputera company registered in the Malaysian Ministry of Finance. SFSB has been operating since 2005. SFSB has ventured into the field of biomechanics and human performance fields since 2007 and has become the main industry support to the institution in the implementation of Motion Analysis in Malaysia.</p>
+
+            </div>
+
+        </div>
+
+        <!-- Client Testimonies -->
+        <div class="testimonies">
+            <div class="testimony-header">Client Testimony And Review</div>
+            <div class="bubbles">
+                <div class="bubble bubble1">
+                    <div class="testimony">
+                        ” All interaction with Summit Features Sdn. Bhd. employees especially Azlan has been excellent and exceptional. They go beyond all aspects of their business, particularly technical support. They have a range of expertise in performing and support in Electromyography and Gait Analysis. “
+                    </div><br>
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        
+                    </div><br>
+                    <div class="reviewer">Dr. Saju Joseph <br> High Performance Director Sport Authority of India</div>
+                </div>
+                <div class="bubble bubble2">
+                    <div class="testimony">
+                        ” Thank you to Summit Features Sdn. Bhd. for supporting my doctoral with the VICON motion captures system. Summit Features Sdn Bhd staffs are really friendly, helpful and knowledgeable during the installation and troubleshoot. “
+                    </div><br>
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        
+                    </div><br>
+                    <div class="reviewer">Dr. Dimas Adiputra <br> Institut Teknologi Telkom Surabaya</div>
+                </div>
+                <div class="bubble bubble3">
+                    <div class="testimony">
+                        ” Since 2016, Summit Features Sdn. Bhd. has provided good technical support services to UTM, especially for research equipment in the Motion Analysis laboratory, under the supervision of the Sport Innovation and Technology Center (SITC). The services provided are not only limited to technical support but also information related to new technologies that are useful for research and teaching. SFSB has experienced staff who are easy to contact if there is a problem with the existing system. “
+                    </div><br>
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        
+                    </div><br>
+                    <div class="reviewer">Dr. Aizreena Azaman <br> Universiti Teknologi Malaysia (JB) 12</div>
+                </div>
             </div>
         </div>
 
     </div>
-
-    <div class="goal-sect">
-
-        <p id="goal" align="center">OUR GOAL</p>
-
-        <div class="goal-group">
-
-            <div class="vision">
-
-                <p id="vision">VISION</p>
-                <p id="description">To be a sustainable leader in scientific fields related to human movement and performance studies to contribute to nation’s growth and building towards year 2030</p>
-
-            </div>
-
-            <div class="mission">
-
-                <p id="mission">MISSION</p>
-                <p id="description">Develop and empower local expertise together with local higher education institutions as catalyst to enhance Malaysia achievement globally in areas such as sports, medical, industry, education and etc.</p>
-
-            </div>
-
-        </div>
-
-        <div class="goal2">
-
-            <p class="story">OUR STORY</p>
-            <p class="history">Summit Features Sdn Bhd (SFSB) is a bumiputera company registered in the Malaysian Ministry of Finance. SFSB has been operating since 2005. SFSB has ventured into the field of biomechanics and human performance fields since 2007 and has become the main industry support to the institution in the implementation of Motion Analysis in Malaysia.</p>
-
-        </div>
-
-    </div>
-
-    <!-- Client Testimonies -->
-     <div class="testimonies">
-        <div class="testimony-header">Client Testimony And Review</div>
-        <div class="bubbles">
-            <div class="bubble bubble1">
-                <div class="testimony">
-                    ” All interaction with Summit Features Sdn. Bhd. employees especially Azlan has been excellent and exceptional. They go beyond all aspects of their business, particularly technical support. They have a range of expertise in performing and support in Electromyography and Gait Analysis. “
-                </div><br>
-                <div class="stars">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                      
-                </div><br>
-                <div class="reviewer">Dr. Saju Joseph <br> High Performance Director Sport Authority of India</div>
-            </div>
-            <div class="bubble bubble2">
-                <div class="testimony">
-                    ” Thank you to Summit Features Sdn. Bhd. for supporting my doctoral with the VICON motion captures system. Summit Features Sdn Bhd staffs are really friendly, helpful and knowledgeable during the installation and troubleshoot. “
-                </div><br>
-                <div class="stars">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                      
-                </div><br>
-                <div class="reviewer">Dr. Dimas Adiputra <br> Institut Teknologi Telkom Surabaya</div>
-            </div>
-            <div class="bubble bubble3">
-                <div class="testimony">
-                    ” Since 2016, Summit Features Sdn. Bhd. has provided good technical support services to UTM, especially for research equipment in the Motion Analysis laboratory, under the supervision of the Sport Innovation and Technology Center (SITC). The services provided are not only limited to technical support but also information related to new technologies that are useful for research and teaching. SFSB has experienced staff who are easy to contact if there is a problem with the existing system. “
-                </div><br>
-                <div class="stars">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                      
-                </div><br>
-                <div class="reviewer">Dr. Aizreena Azaman <br> Universiti Teknologi Malaysia (JB) 12</div>
-            </div>
-        </div>
-     </div>
-
-    
-    <script src="sketch.js"></script>
 
 </body>
 </html>
