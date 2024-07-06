@@ -232,3 +232,73 @@ li a:hover{
     font-weight: bold;
 }
 
+/*Contact*/
+#contact-main{
+    justify-content: center;
+    text-align: center;
+}
+
+#contact{
+    font-size: 44px;
+    font-weight: bold;
+    color: #1FA2DA;
+    text-decoration: underline red;
+}
+
+.office{
+margin-left: 30px;
+}
+
+.website{
+margin-left: 30px; 
+}
+
+#gettouch,#our-office,#office-hour,#website-visit{
+    font-size: 35px;
+    font-weight: bold;
+    color: #1FA2DA;
+}
+
+#form{
+    margin-left: 240px  ;
+    display: flex  ;
+}
+
+.form-list{
+    font-weight: bold;
+    color: #4D4D4D;
+    border-radius: 10px;
+    width: 480px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.name{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 50px   ;
+
+}
+
+.l{
+    margin-left: 50px;
+}
+
+input{
+    padding: 10px;
+}
+
+.email,.message,button{
+    margin-left: 50px;
+}
+
+button{
+   border-radius: 10px;
+   padding: 10px;
+   width: 100px;
+   cursor: pointer;
+   margin-bottom: 2%;
+}
+
