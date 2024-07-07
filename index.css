@@ -379,3 +379,15 @@ button{
     margin: 10px;
     cursor: pointer;
 }
+
+.fa-facebook:hover{
+    color: #4267B2;
+}
+
+.fa-twitter:hover{
+    color: #1DA1F2;
+}
+
+.fa-instagram:hover{
+    color: #8134AF;
+}
