@@ -161,7 +161,13 @@
                 <textarea placeholder="Leave Your Message Here" id="w3review" name="w3review" rows="4" cols="50"></textarea>
             </div><br>  
             <div class="submit">
-                <button type="submit">Submit</button>
+                <button type="submit" onclick="submit()">Submit</button>
+                <script>
+                    function submit() {
+                    alert("Submitted!");
+                    location.reload();
+}
+                </script>
             </div>
         </div>
     </div>
