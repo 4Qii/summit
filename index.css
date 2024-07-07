@@ -241,7 +241,7 @@ li a:hover{
 }
 
 .testimonies{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .testimony-header{
@@ -267,6 +267,7 @@ li a:hover{
     height: auto;
     margin: 10px;
     padding: 5px;
+    padding-bottom: 30px;
     border-radius: 10px;
 }
 
