@@ -171,17 +171,17 @@ li a:hover{
 
 /* goal */
 .goal-sect{
-    margin-top: 100px;
+    padding-top: 20px;
     margin-left: auto !important;
     margin-right: auto !important;
     width: 1100px;
-    margin-top: 50px;
+    
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
 }
 
 .vision,.mission,.story{
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 #goal{
@@ -291,6 +291,7 @@ li a:hover{
 #contact-main{
     justify-content: center;
     text-align: center;
+    margin-top: 20px;
 }
 
 #contact{
